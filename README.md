@@ -1,16 +1,49 @@
-# React + Vite
+# Frontend Mentor - QR Code Component Solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iA_BxA1mG). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#hdaberi)
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Screenshot
 
-## Expanding the ESLint configuration
+![](./public/desktop-design.jpg) <!-- عکس پروژه خودت را در مسیر اصلی بگذار و نامش را اینجا ست کن -->
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/hdaberi/react-qr-code-app-project)
+
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties / Tailwind CSS <!-- اگر از تایل‌ویند یا CSS معمولی استفاده کردی اینجا مشخص کن -->
+- Flexbox / CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+### What I learned
+
+Building this component using React helped reinforce key concepts such as structuring component architectures, managing static assets in React, and applying responsive CSS layout techniques.
+
+```jsx
+function QRCodeCard() {
+  return (
+    <main className="qr-card">
+      <img src={qrCodeImg} alt="QR Code" />
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </main>
+  );
+}
