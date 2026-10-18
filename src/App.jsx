@@ -1,9 +1,12 @@
-import React from 'react'
 
+import "./App.css";
+import QrCode from "./components/QrCode";
 function App() {
   return (
-    <div>Qr Code Generator</div>
-  )
+    <div className="container">
+      <QrCode />
+    </div>
+  );
 }
 
-export default App
+export default App;

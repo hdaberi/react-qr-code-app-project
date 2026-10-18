@@ -1,0 +1,38 @@
+/* استایل اصلی کارت QR Code */
+.qr-card {
+    background-color: var(--white);
+    padding: 1rem;
+    padding-bottom: 2.5rem;
+    border-radius: 20px;
+    max-width: 320px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0476);
+}
+
+/* تصویر کیوآر کد */
+.qr-card .qr-header .qr-img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+/* عنوان کارت (Bold - Weight 700) */
+.qr-card .qr-info .title {
+    color: var(--slate-900);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+
+/* پاراگراف توضیحات (Regular - Weight 400) */
+.qr-card .qr-info .decription {
+    color: var(--slate-500);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0 1rem;
+}
